@@ -1,0 +1,155 @@
+/*  start with the most general and work your way down to the most specific - organization is the name of the game! */
+
+/* universal style */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  /* STEP 2. add font family */
+  /* STEP 2. add background color */
+  /* STEP 2. add text color */
+  /* STEP 3. add border */
+
+  margin-left:;
+  margin-right:;
+  padding:;
+  
+  font-family:  'Lato', Arial, Helvetica, sans-serif;
+ 
+  background-color:#fa6699;
+
+  color: rgb(25, 120, 221);
+
+  border: 10px solid black;
+}
+ 
+h3{
+  font-family: 'Times New Roman', Times, serif;
+
+  margin-bottom: 15px;
+
+  /* Step 5. change size */
+  font-size: 40px;
+  /* Step 5. change color */
+  color: #f10;
+  text-align: center;
+}
+
+header {
+  margin-bottom:20px;
+  /* margin-bottom adds space btween the bottom of the header and the top of the next element */
+}
+
+section {
+  
+    /* /* this makes the height of each section equal to the height of the screen; this is a way to add not just dimension but also later we will use this for responsiveness */
+
+}
+
+
+#resourceNav, nav {
+  text-align:;
+  background-color:;
+}
+
+#resourceNav a {
+  text-decoration:;
+  margin: 10px;
+}
+
+#resourceNav a:hover {
+  color:;
+  text-decoration:;
+  cursor: crosshair;
+}
+
+header nav a {
+  color:;
+  text-decoration:;
+  margin: 10px;
+ 
+}
+
+/* body styling */
+
+h1 {
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  margin-bottom: 25px;
+  /* Step 5. change alignment to center */
+  text-align: center;
+  /* Step 5. change size */
+  font-size: 32px;
+  /* Step 5. change color */
+  color: #fa2;
+
+}
+
+
+
+li {
+  font-size: 18px;
+  color: black;
+}
+
+h2, h3 {
+  background-color:;
+}
+
+/* STEP 4. create a tag for the redEm class and change the color to red */
+.redEM{
+  color: red;
+}
+ol li {
+  font-size: 22px;
+  color:;
+}
+
+
+
+#specificity {
+  width: 100%;
+}
+
+Ol li {
+  color: beige;
+}
+
+h2, h3 {
+  background-color: blueviolet;
+}
+
+header nav a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+h3{ 
+  color: #f10;
+}
+
+h3 {
+  color:purple
+}
+
+body{
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+/* this code is is for the appearance of the code samples in the html document */
+
+pre code{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  display: block;
+  font-size: 30px;
+}
+
+
