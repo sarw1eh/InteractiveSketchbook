@@ -17,4 +17,15 @@ body {
     background-color: #F2F0D8;
 }
 
-Img {width: 50%;}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    width:100%;
+}
+Img {
+    width: 50%;
+}

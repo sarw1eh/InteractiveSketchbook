@@ -17,3 +17,38 @@ body {
     background-color: #F2F0D8;
 }
 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    width:100%;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+    border-radius:6px ;
+
+}
+
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.contentcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
