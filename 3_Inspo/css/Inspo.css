@@ -14,7 +14,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 body {
 
     color: #26241C;
-    background-color: #F2F0D8;
+    background-color: #dfd8f2;
 }
 
 
@@ -26,6 +26,9 @@ nav{
     align-items:center;
     gap: 20px;
     width:100%;
+    background-color: rgb(212, 113, 113);
+    border: solid 2px #f11 ;
+   
 }
 
 img{
@@ -44,6 +47,7 @@ img{
     margin-top: 20px;
 
 }
+
 
 .contentcards{
     display: flex;

@@ -27,3 +27,27 @@ nav{
     gap: 20px;
     width:100%;
 }
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.coding-notes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
